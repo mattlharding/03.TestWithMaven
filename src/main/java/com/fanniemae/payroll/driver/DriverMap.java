@@ -3,7 +3,7 @@ package com.fanniemae.payroll.driver;
 import java.util.HashMap;
 
 public class DriverMap {
-// the objective is to discuss the relationship the Map interface and HashMap imp
+//  : the objective is to discuss the relationship the Map interface and HashMap imp
 	
 	public static void main(String[] args) {
 		HashMap <String, Double> map = new HashMap <>();
