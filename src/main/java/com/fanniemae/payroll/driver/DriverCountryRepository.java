@@ -10,7 +10,9 @@ public class DriverCountryRepository {
 
 	public static void main (String[] args) {
 		CountryRepository dao = new CountryRepository ();
-		((ArrayList<Country>) dao.findAll()).forEach(System.out::println);
+		//((ArrayList<Country>) dao.findAll()).forEach(System.out::println);
+		 Country country = dao.findByKey("USA");
+			System.out.println(country); 
 	}
 	
 	

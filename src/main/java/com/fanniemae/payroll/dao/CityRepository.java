@@ -23,10 +23,20 @@ public class CityRepository extends AbstractSQLDAO
 	}
 
 	@Override
-	public ArrayList<City> findAll() {
+	public ArrayList <City> findAll() {
 		String sql = "select ID, name, population from city";
 		super.process(sql);
 	
 		return list;
+	}
+
+	@Override
+	public City findByKey(String key) {
+		String sql = "select ID, name, population from city where id = " + key;
+		super.process(sql);
+		City city = list.get(0);
+		return city;
+		
+		
 	}
 }
