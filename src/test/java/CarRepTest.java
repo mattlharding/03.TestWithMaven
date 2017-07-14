@@ -15,7 +15,7 @@ public class CarRepTest {
 		CarRepository car = new CarRepository ();
 		int size = car.findMaps().size();
 				
-				assertTrue ("size is : " + size, size == 20);
+				assertTrue ("size is : " + size, size == 10);
 		
 				
 		
