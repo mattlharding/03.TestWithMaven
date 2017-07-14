@@ -4,9 +4,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.junit.Test;
-
-public class CarRepository implements iQuery<String> {
+public class CarRepository implements iQuery <String> {
+ 
 	public ArrayList <String> findAll() {
 		// TODO Auto-generated method stub
 		return null;

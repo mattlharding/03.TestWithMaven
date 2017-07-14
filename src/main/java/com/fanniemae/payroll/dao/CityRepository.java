@@ -6,6 +6,8 @@ import java.util.ArrayList;
 
 import com.fanniemae.payroll.model.City;
 
+
+
 public class CityRepository extends AbstractSQLDAO 
 	implements iQuery <City>{
 		

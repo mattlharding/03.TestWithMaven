@@ -5,6 +5,7 @@ import java.sql.SQLException;
 
 import com.fanniemae.payroll.model.Registration;
 
+
 public class RegistrationRepository extends AbstractSQLDAO implements IModify<Registration, Integer> {
 
 	@Override

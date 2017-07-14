@@ -11,7 +11,7 @@ public abstract class AbstractSQLDAO {
 
 	private BasicDataSource ds = new BasicDataSource();
 
-	private Connection con = null;
+
 	private Statement stmt = null;
 	private ResultSet rs = null;
 	{

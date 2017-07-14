@@ -5,7 +5,7 @@ public class Registration {
 	private int id;
 	private String firstName;
 	private String lastName;
-	private int age;
+	private int age; 
 	
 	public Registration(int id, String firstName, String lastName, int age) {
 		super();

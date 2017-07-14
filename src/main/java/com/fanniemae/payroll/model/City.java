@@ -10,7 +10,7 @@ public class City {
 		this.id = id;
 		this.name = name;
 		this.population = population;
-	}
+	} 
 
 	@Override
 	public String toString() {
